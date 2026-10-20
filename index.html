@@ -25,19 +25,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
 
 <!-- ============ SCHEMA.ORG (SEO) ============ -->
-<!-- Substitua telefone, endereço e redes sociais pelos dados reais da loja -->
+<!-- Telefone e redes sociais da loja -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SportingGoodsStore",
   "name": "Colorado Esportes",
   "description": "Loja online de camisetas de futebol de clubes brasileiros, europeus, seleções e acessórios esportivos.",
-  "telephone": "+55-11-99999-9999",
+  "telephone": "+55-15-99699-0733",
   "priceRange": "$$",
   "areaServed": "BR",
   "sameAs": [
     "https://www.instagram.com/coloradoesportes",
-    "https://wa.me/15996990733"
+    "https://wa.me/5515996990733"
   ]
 }
 </script>
@@ -424,8 +424,9 @@
     .wa-fab .icon{width:26px;height:26px;}
   }
 </style>
+<link rel="stylesheet" href="assets/vitrine.css">
 </head>
-<body>
+<body data-page="home">
 
 <a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
 
@@ -466,7 +467,7 @@
       <li><a href="#contato">Contato</a></li>
     </ul>
     <div class="nav-right">
-      <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Colorado%20Esportes%21" class="btn btn-solid btn-sm" target="_blank" rel="noopener">
+      <a href="https://wa.me/5515996990733?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Colorado%20Esportes%21" class="btn btn-solid btn-sm" target="_blank" rel="noopener">
         <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
         WhatsApp
       </a>
@@ -488,7 +489,7 @@
         <h1>A PAIXÃO PELO FUTEBOL<br>ESTÁ <span class="hl">DE VOLTA.</span></h1>
         <p class="lead">Camisetas de clubes brasileiros, europeus, seleções e da Seleção Brasileira, kits de treino, kit inverno e acessórios esportivos. Compra 100% pelo WhatsApp, com atendimento personalizado e entrega em até 7 dias.</p>
         <div class="hero-actions">
-          <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20quero%20ver%20as%20camisetas%20dispon%C3%ADveis%21" class="btn btn-whatsapp" target="_blank" rel="noopener">
+          <a href="https://wa.me/5515996990733?text=Ol%C3%A1%2C%20quero%20ver%20as%20camisetas%20dispon%C3%ADveis%21" class="btn btn-whatsapp" target="_blank" rel="noopener">
             <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
             Comprar pelo WhatsApp
           </a>
@@ -533,6 +534,20 @@
 
   <svg class="seam" viewBox="0 0 1180 24" preserveAspectRatio="none" aria-hidden="true"><path d="M0,12 Q 30,0 60,12 T 120,12 T 180,12 T 240,12 T 300,12 T 360,12 T 420,12 T 480,12 T 540,12 T 600,12 T 660,12 T 720,12 T 780,12 T 840,12 T 900,12 T 960,12 T 1020,12 T 1080,12 T 1140,12 T 1200,12"/></svg>
 
+  <!-- ============ DESTAQUES (vitrine) ============ -->
+  <section id="destaques" aria-labelledby="destaques-title" style="padding-bottom:40px">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Vitrine</p>
+          <h2 class="section-title" id="destaques-title">Em destaque</h2>
+        </div>
+        <a href="categoria.html?c=todos" class="btn btn-outline btn-sm">Ver todas as camisas</a>
+      </div>
+      <div class="prod-grid" id="destaquesGrid"></div>
+    </div>
+  </section>
+
   <!-- ============ CATEGORIAS ============ -->
   <section id="categorias" aria-labelledby="categorias-title">
     <div class="wrap">
@@ -550,8 +565,8 @@
           <div class="cat-icon"><svg class="icon" aria-hidden="true"><use href="#ico-shirt"></use></svg></div>
           <h3>Clubes Brasileiros</h3>
           <p>Os principais times do futebol brasileiro, com numeração oficial e tecido de alta performance.</p>
-          <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20quero%20ver%20camisas%20de%20clubes%20brasileiros" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
-            <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>Comprar
+          <a href="categoria.html?c=clubes-brasileiros" class="btn btn-outline btn-sm">
+            <svg class="icon" aria-hidden="true"><use href="#ico-shirt"></use></svg>Ver camisas
           </a>
         </article>
 
@@ -559,8 +574,8 @@
           <div class="cat-icon"><svg class="icon" aria-hidden="true"><use href="#ico-globe"></use></svg></div>
           <h3>Clubes Europeus</h3>
           <p>Premier League, La Liga, Serie A, Bundesliga e mais, sempre atualizados com os lançamentos da temporada.</p>
-          <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20quero%20ver%20camisas%20de%20clubes%20europeus" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
-            <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>Comprar
+          <a href="categoria.html?c=clubes-europeus" class="btn btn-outline btn-sm">
+            <svg class="icon" aria-hidden="true"><use href="#ico-shirt"></use></svg>Ver camisas
           </a>
         </article>
 
@@ -568,8 +583,8 @@
           <div class="cat-icon"><svg class="icon" aria-hidden="true"><use href="#ico-trophy"></use></svg></div>
           <h3>Seleções</h3>
           <p>Camisas das principais seleções do mundo, para você torcer com estilo em qualquer competição.</p>
-          <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20quero%20ver%20camisas%20de%20sele%C3%A7%C3%B5es" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
-            <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>Comprar
+          <a href="categoria.html?c=selecoes" class="btn btn-outline btn-sm">
+            <svg class="icon" aria-hidden="true"><use href="#ico-shirt"></use></svg>Ver camisas
           </a>
         </article>
 
@@ -577,8 +592,8 @@
           <div class="cat-icon"><svg class="icon" aria-hidden="true"><use href="#ico-flag"></use></svg></div>
           <h3>Seleção Brasileira</h3>
           <p>Camisa oficial e retrô do Brasil, para vestir a nossa maior paixão em qualquer ocasião.</p>
-          <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20quero%20ver%20camisas%20da%20Sele%C3%A7%C3%A3o%20Brasileira" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
-            <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>Comprar
+          <a href="categoria.html?c=selecao-brasileira" class="btn btn-outline btn-sm">
+            <svg class="icon" aria-hidden="true"><use href="#ico-shirt"></use></svg>Ver camisas
           </a>
         </article>
 
@@ -586,8 +601,8 @@
           <div class="cat-icon"><svg class="icon" aria-hidden="true"><use href="#ico-dumbbell"></use></svg></div>
           <h3>Kits para Treino</h3>
           <p>Conjuntos completos de treino — camisa, shorts e meião — com conforto e respirabilidade.</p>
-          <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20quero%20ver%20kits%20de%20treino" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
-            <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>Comprar
+          <a href="categoria.html?c=kits-treino" class="btn btn-outline btn-sm">
+            <svg class="icon" aria-hidden="true"><use href="#ico-shirt"></use></svg>Ver camisas
           </a>
         </article>
 
@@ -595,8 +610,8 @@
           <div class="cat-icon"><svg class="icon" aria-hidden="true"><use href="#ico-snow"></use></svg></div>
           <h3>Kit Inverno</h3>
           <p>Agasalhos, jaquetas corta-vento e blusas térmicas dos seus times do coração.</p>
-          <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20quero%20ver%20o%20kit%20inverno" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
-            <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>Comprar
+          <a href="categoria.html?c=kit-inverno" class="btn btn-outline btn-sm">
+            <svg class="icon" aria-hidden="true"><use href="#ico-shirt"></use></svg>Ver camisas
           </a>
         </article>
 
@@ -604,8 +619,8 @@
           <div class="cat-icon"><svg class="icon" aria-hidden="true"><use href="#ico-box"></use></svg></div>
           <h3>Acessórios Esportivos</h3>
           <p>Bonés, meiões, chuteiras, bolas e muito mais para completar o visual do torcedor.</p>
-          <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20quero%20ver%20os%20acess%C3%B3rios%20esportivos" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
-            <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>Comprar
+          <a href="categoria.html?c=acessorios" class="btn btn-outline btn-sm">
+            <svg class="icon" aria-hidden="true"><use href="#ico-shirt"></use></svg>Ver camisas
           </a>
         </article>
 
@@ -698,7 +713,7 @@
       </div>
 
       <div class="products-more reveal" style="text-align:center;margin-top:52px;">
-        <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20quero%20iniciar%20minha%20compra%21" class="btn btn-whatsapp" target="_blank" rel="noopener">
+        <a href="https://wa.me/5515996990733?text=Ol%C3%A1%2C%20quero%20iniciar%20minha%20compra%21" class="btn btn-whatsapp" target="_blank" rel="noopener">
           <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
           Iniciar Compra pelo WhatsApp
         </a>
@@ -747,7 +762,7 @@
     <div class="wrap reveal">
       <h2 id="cta-title">Sua camisa está a uma mensagem de distância</h2>
       <p>Fale agora com a Colorado Esportes e garanta a sua pelo WhatsApp.</p>
-      <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20quero%20falar%20com%20um%20especialista%20da%20Colorado%20Esportes%21" class="btn btn-whatsapp" target="_blank" rel="noopener">
+      <a href="https://wa.me/5515996990733?text=Ol%C3%A1%2C%20quero%20falar%20com%20um%20especialista%20da%20Colorado%20Esportes%21" class="btn btn-whatsapp" target="_blank" rel="noopener">
         <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
         Falar com um Especialista
       </a>
@@ -793,20 +808,20 @@
       <p>Camisetas de futebol de clubes brasileiros, europeus, seleções e acessórios esportivos. Loja 100% online, com vendas pelo WhatsApp e redes sociais.</p>
       <div class="socials">
         <a href="https://www.instagram.com/coloradoesportes" target="_blank" rel="noopener" aria-label="Instagram da Colorado Esportes"><svg class="icon" aria-hidden="true"><use href="#ico-instagram"></use></svg></a>
-        <a href="https://wa.me/15996990733" target="_blank" rel="noopener" aria-label="WhatsApp da Colorado Esportes"><svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg></a>
+        <a href="https://wa.me/5515996990733" target="_blank" rel="noopener" aria-label="WhatsApp da Colorado Esportes"><svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg></a>
       </div>
     </div>
 
     <nav class="footer-col" aria-label="Categorias">
       <h4>Categorias</h4>
       <ul>
-        <li><a href="#clubes-brasileiros">Clubes Brasileiros</a></li>
-        <li><a href="#clubes-europeus">Clubes Europeus</a></li>
-        <li><a href="#selecoes">Seleções</a></li>
-        <li><a href="#selecao-brasileira">Seleção Brasileira</a></li>
-        <li><a href="#kits-treino">Kits de Treino</a></li>
-        <li><a href="#kit-inverno">Kit Inverno</a></li>
-        <li><a href="#acessorios">Acessórios</a></li>
+        <li><a href="categoria.html?c=clubes-brasileiros">Clubes Brasileiros</a></li>
+        <li><a href="categoria.html?c=clubes-europeus">Clubes Europeus</a></li>
+        <li><a href="categoria.html?c=selecoes">Seleções</a></li>
+        <li><a href="categoria.html?c=selecao-brasileira">Seleção Brasileira</a></li>
+        <li><a href="categoria.html?c=kits-treino">Kits de Treino</a></li>
+        <li><a href="categoria.html?c=kit-inverno">Kit Inverno</a></li>
+        <li><a href="categoria.html?c=acessorios">Acessórios</a></li>
       </ul>
     </nav>
 
@@ -816,7 +831,7 @@
         <li><a href="#diferenciais">Diferenciais</a></li>
         <li><a href="#como-comprar">Como Comprar</a></li>
         <li><a href="#sobre">Sobre Nós</a></li>
-        <li><a href="https://wa.me/15996990733" target="_blank" rel="noopener">Fale Conosco</a></li>
+        <li><a href="https://wa.me/5515996990733" target="_blank" rel="noopener">Fale Conosco</a></li>
       </ul>
     </nav>
 
@@ -825,7 +840,7 @@
       <p><svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>Vendas 100% via WhatsApp</p>
       <p><svg class="icon" aria-hidden="true"><use href="#ico-clock"></use></svg>Seg. a Sáb. · 9h às 19h</p>
       <p><svg class="icon" aria-hidden="true"><use href="#ico-pin"></use></svg>Atendimento para toda a região</p>
-      <a href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Colorado%20Esportes%21" class="btn btn-whatsapp btn-sm btn-block" target="_blank" rel="noopener">
+      <a href="https://wa.me/5515996990733?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Colorado%20Esportes%21" class="btn btn-whatsapp btn-sm btn-block" target="_blank" rel="noopener">
         <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>Falar Agora
       </a>
     </div>
@@ -837,10 +852,12 @@
 </footer>
 
 <!-- ============ BOTÃO FLUTUANTE DE WHATSAPP ============ -->
-<a class="wa-fab" href="https://wa.me/15996990733?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Colorado%20Esportes%21" target="_blank" rel="noopener" aria-label="Fale com a Colorado Esportes pelo WhatsApp">
+<a class="wa-fab" href="https://wa.me/5515996990733?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Colorado%20Esportes%21" target="_blank" rel="noopener" aria-label="Fale com a Colorado Esportes pelo WhatsApp">
   <svg class="icon" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
 </a>
 
+<script src="assets/produtos.js"></script>
+<script src="assets/loja.js"></script>
 <script>
 (function () {
   'use strict';
